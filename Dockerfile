@@ -1,4 +1,4 @@
-FROM node:14-alpine
+FROM node:16-alpine
 
 # Add tool which will fix init process
 RUN apk add dumb-init
