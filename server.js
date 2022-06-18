@@ -38,5 +38,7 @@ function closeGracefully(signal) {
   });
 }
 
+console.log("testing actions")
+
 process.on('SIGINT', closeGracefully);
 process.on('SIGTERM', closeGracefully);
